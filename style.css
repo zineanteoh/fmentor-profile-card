@@ -1,0 +1,63 @@
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(229, 23%, 23%);
+  background-color: hsl(185, 75%, 39%);
+  /* background-image: url('images/bg-pattern-top.svg'); */
+  background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg'); 
+  background-repeat: no-repeat;
+  background-position: -70% 80%, 160% -70%;
+  /* background-position: bottom right; */
+  
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 375px;
+  height: 450px;
+  margin-top: 150px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+}
+
+#background {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#profile {
+  border-radius: 50%;
+  position: relative;
+  top: -50px;
+  border: 7px solid white;
+}
+
+span {
+  font-weight: 100;
+  font-size: 18px;
+  color: hsl(227, 10%, 46%);
+}
+
+.location {
+  font-size: 15px;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stat-description {
+  font-size: 12px;
+  display: block;
+}
+
+.card .separator {
+  border-top: 1px solid white;
+}
